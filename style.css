@@ -1,0 +1,27 @@
+#calculator {
+    width: 375px;
+    margin: 0 auto;
+    border: 3px solid #ccc;
+    padding: 20px;
+}
+#display {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    text-align: right;
+    line-height: 2em;
+    font-size: 30px;
+}
+button {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 3px;
+    text-align: center;
+    width: calc(359px / 4);
+    margin: 5px 0 0 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+.width-half {
+    width: calc(369px / 2);
+}
